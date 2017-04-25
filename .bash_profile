@@ -2,11 +2,11 @@
 #alias printQ='lpq -Plw303'
 #alias printRM='lprm -Plw303'
 
-printCSLab() {
+print() {
     lpr -Plw$1 $2
 }
 
-printQ() {
+printq() {
     lpq -Plw$1
 }
 
